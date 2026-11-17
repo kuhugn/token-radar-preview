@@ -40,11 +40,16 @@ nav.tabs button.on{background:var(--teal-dim);color:var(--teal);border-color:var
 .toolbar input[type="checkbox"]{width:15px;height:15px;accent-color:var(--teal);margin:0}
 .toolbar label.chk{display:flex;gap:6px;align-items:center;color:var(--mut);font-size:13px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 10px;cursor:pointer}
 .toolbar .count{margin-left:auto;color:var(--dim);font-size:12.5px}
+.toolbar .legend{flex-basis:100%;color:var(--dim);font-size:12px;line-height:1.5}
+.funnel{color:var(--mut);font-size:12.5px;margin:8px 0 0}
+.funnel b{color:var(--ink)}
+.pex{color:var(--dim);font-size:11.5px;margin-top:2px}
+td.ev{color:var(--mut)}
 
 /* board table */
 .wrap{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:var(--r)}
 table{border-collapse:separate;border-spacing:0;width:100%;min-width:1180px}
-thead th{position:sticky;top:0;background:var(--panel2);color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.6px;text-align:right;padding:9px 10px;border-bottom:1px solid var(--line2);white-space:nowrap;z-index:2}
+thead th{position:sticky;top:0;background:var(--panel2);color:#8a93a8;font-size:11px;text-transform:uppercase;letter-spacing:.6px;text-align:right;padding:9px 10px;border-bottom:1px solid var(--line2);white-space:nowrap;z-index:2}
 thead th.l,tbody td.l{text-align:left}
 thead th.sortable{cursor:pointer} thead th.sortable:hover{color:var(--teal)}
 tbody td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:right;vertical-align:middle}
